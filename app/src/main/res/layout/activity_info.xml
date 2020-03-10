@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+    android:background="#ffffff"
+        >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="554dp"
+
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="ABOUT"
+                android:textColor="#FF0000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="ⒺⓋⒺⓃⓉ ⒶⓅⓅ"
+                android:textColor="#000000"
+                android:textSize="33dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="45dp"
+                android:paddingRight="45dp"
+                android:text="It is an initiative by Microsoft mobile inovation lab to build app that presents ongoing events in college.Participant can excess details about events and register in any event in realtime(Thanks to FIREBASE!!).Also organizer can create events through app and see the participantlist in any particular event!!"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="35dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SHANTANU RATHOD"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:text="    (DEVLOPER AND DESIGNER)"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="home">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/parti" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="Participant"
+                android:textColor="	#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="organ">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/organ" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="Organizer"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="myevent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/event" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="My Events"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="info">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/infor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="info"
+                android:textColor="	#DC143C"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

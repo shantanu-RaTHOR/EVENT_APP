@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Event App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_secactivity">secactivity</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_addevent">addevent</string>
+    <string name="title_activity_eventinfo">eventinfo</string>
+    <string name="title_activity_fetchevent">fetchevent</string>
+    <string name="title_activity_arrayaddapter">arrayaddapter</string>
+    <string name="title_activity_info">info</string>
+    <string name="title_activity_addpartici">addpartici</string>
+    <string name="title_activity_fetchparti">fetchparti</string>
+    <string name="title_activity_fetchevento">fetchevento</string>
+    <string name="title_activity_ftchstudent_l_o">ftchstudent_l_o</string>
+    <string name="title_activity_ftchevent2">ftchevent2</string>
+    <string name="title_activity_listlayout2">listlayout2</string>
+    <string name="title_activity_myevent">myevent</string>
+    <string name="title_activity_mycrevents">mycrevents</string>
+</resources>

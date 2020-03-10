@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.event_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".mycrevents"
+            android:label="@string/title_activity_mycrevents"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".myevent"
+            android:label="@string/title_activity_myevent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ftchevent2"
+            android:label="@string/title_activity_ftchevent2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ftchstudent_l_o"
+            android:label="@string/title_activity_ftchstudent_l_o"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fetchevento"
+            android:label="@string/title_activity_fetchevento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addpartici"
+            android:label="@string/title_activity_addpartici"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".info"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".arrayaddapter"
+            android:label="@string/title_activity_arrayaddapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fetchevent"
+            android:label="@string/title_activity_fetchevent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eventinfo"
+            android:label="@string/title_activity_eventinfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addevent"
+            android:label="@string/title_activity_addevent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".secactivity"
+            android:label="@string/title_activity_secactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

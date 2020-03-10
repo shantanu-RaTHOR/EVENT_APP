@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">.
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ⒺⓋⒺⓃⓉ ⒶⓅⓅ"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Participants List"
+        android:textSize="20dp"
+        android:id="@+id/head"
+        android:textColor="#000000"
+        />
+
+    <ListView
+        android:id="@+id/listviewpartio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+    </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="Home">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="HOME"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="parti">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/partir" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="Organizer"
+                android:textColor="	#DC143C"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="myevent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/event" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="My Events"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="info">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/info" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:text="info"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

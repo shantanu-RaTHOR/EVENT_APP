@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ⒺⓋⒺⓃⓉ ⒶⓅⓅ"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic2" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:text="NAME"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#ffffff"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="24dp"
+                    android:text="Date"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="24dp"
+                    android:text="Time"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/venue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="24dp"
+                    android:text="Venue"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="24dp"
+                    android:text="des"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circler"
+                    android:onClick="register"
+                    android:text="Register"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="24dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:onClick="Home">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:text="HOME"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:onClick="home"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/organr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:text="Participant"
+                    android:textColor="	#DC143C"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:onClick="myevent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/event" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:text="My Events"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:onClick="info"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/info" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:text="info"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
