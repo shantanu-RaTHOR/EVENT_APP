@@ -6,3 +6,9 @@ App that shows ongoing events in college.Organizer can create new events and can
   
   ## 2
   <img src="download2.png" width="900"   title="IMAGE 2">
+  
+   ## 3
+  <img src="download3.png" width="900"   title="IMAGE 3">
+  
+   ## 4
+  <img src="download4.png" width="900"   title="IMAGE 4">
