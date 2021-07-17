@@ -3,3 +3,6 @@ App that shows ongoing events in college.Organizer can create new events and can
 ## SCREENSHOTS
   ## 1
   <img src="download.png" width="900"   title="IMAGE 1">
+  
+  ## 2
+  <img src="download2.png" width="900"   title="IMAGE 2">
